@@ -169,8 +169,8 @@ export function CreateAdModal() {
             <div className="flex flex-col gap-2 flex-1">
               <label htmlFor="HourStart">Qual Horário do dia?</label>
               <div className="grid grid-cols-2 gap-2">
-                <Input name="hourStart" id="hourStart" type="time" placeholder="De" />
-                <Input name="hourEnd" id="hourEnd" type="time" placeholder="Até" />
+                <Input name="hourStart" id="hourStart" type="time"  />
+                <Input name="hourEnd" id="hourEnd" type="time"  />
               </div>
             </div>
           </div>
@@ -190,7 +190,7 @@ export function CreateAdModal() {
                 <Check className="w-4 h-4 text-emerald-400" />
               </Checkbox.Indicator>
             </Checkbox.Root>
-            Costumo me conectar ao chat de vox
+            Costumo me conectar ao chat de voz
           </label>
 
           <footer className="mt-4 flex justify-end gap-4">
